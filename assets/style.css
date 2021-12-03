@@ -1,0 +1,28 @@
+/* CommonGenralRules */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	--black: #000;
+	--white: #fff;
+	--blue: #0d6efd;
+}
+/* /CommonGenralRules */
+
+/* #Site_Header */
+.row > img {
+	width: 10%;
+}
+
+.nav-link {
+	color: var(--black) !important;
+}
+
+.nav-link:hover {
+	cursor: pointer;
+	color: var(--blue) !important;
+}
+/* /#Site_Header */
