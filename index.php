@@ -1,6 +1,7 @@
 <?php
 /* 
-Traccia esercizio:
+Traccia esercizio.
+
 Riscrivere questa pagina del sito google https://policies.google.com/faq.
 Ci sono diverse domande con relative risposte. Gestire il “Database” e la visualizzazione di queste domande e risposte con PHP.
 */
@@ -55,7 +56,7 @@ $faq = [
     ],
 ];
 
-// var_dump($numbers_array);
+// var_dump($faq);
 ?>
 
 
@@ -72,8 +73,8 @@ $faq = [
 </head>
 <body>
 
-    <!-- #Site_Header -->
-    <header id="Site_Header">
+    <!-- #site_header -->
+    <header id="site_header">
         <div class="row align-items-center">
             <img src="https://biografieonline.it/img/bio/g/Google.jpg" alt="immagine del logo di Google">
             <span class="w-auto">
@@ -99,10 +100,10 @@ $faq = [
         </ul>
         <hr>
     </header>
-    <!-- /#Site_Header -->
+    <!-- /#site_header -->
 
-    <!-- #Site_Main -->
-    <main id="Site_Main">
+    <!-- #site_main -->
+    <main id="site_main">
         <div class="container">
             <?php foreach ($faq as $key => $value) {?>
                 <h2 class="fs-3 fw-bolder">
@@ -114,6 +115,6 @@ $faq = [
             <?php } ?>
         </div>
     </main>
-    <!-- /#Site_Main -->
+    <!-- /#site_main -->
 </body>
 </html>

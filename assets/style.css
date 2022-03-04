@@ -1,4 +1,4 @@
-/* CommonGenralRules */
+/* common_general_rules */
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -9,9 +9,9 @@
 	--blue: #0d6efd;
 	--gray: #5f6368;
 }
-/* /CommonGenralRules */
+/* /common_general_rules */
 
-/* #Site_Header */
+/* #site_header */
 .row > img {
 	width: 10%;
 }
@@ -28,10 +28,10 @@
 	color: var(--blue) !important;
 	border-bottom: 5px solid var(--blue) !important;
 }
-/* /#Site_Header */
+/* /#site_header */
 
-/* #Site_Main */
-#Site_Main {
+/* #site_main */
+#site_main {
 	margin: 5rem 0;
 }
-/* /#Site_Main */
+/* /#site_main */
